@@ -12,7 +12,7 @@ const SharedButton = ({
       type={type}
       onClick={onClick}
       disabled={disabled}
-      className={` bg-gray-900 py-[5px] px-[12px]   full text-white  font-sans disabled:bg-gray-400 disabled:cursor-not-allowed ${className}`}
+      className={` bg-gray-900 py-[5px] px-[12px] flex items-center justify-center  full text-white  font-sans disabled:bg-gray-400 disabled:cursor-not-allowed ${className}`}
     >
       {children}
     </button>
